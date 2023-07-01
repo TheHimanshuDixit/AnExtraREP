@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="utf-8">
+        <title>Form</title>
+        <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+        <h1 id="title1">Registration Form</h1>
+        <p id="description">Please fill out this form</p>
+        <form action="./first.php" method="post" id="survey-form1" enctype="multipart/form-data">
+                <label for="name" id="name-label">Name<input id="name" name="name" type="text"
+                                placeholder="Enter your name" required></label>
+                <label for="age" id="age-label">Age<input id="age" name="age" type="text" placeholder="Enter your age"
+                                required></label>
+                <label for="weight" id="weight-label">Weight<input id="weight" name="weight" type="text"
+                                placeholder="Enter your weight" required></label>
+                <label for="email" id="email-label">Email <input id="email" name="email" type="email"
+                                placeholder="Enter your email" required></label>
+                <label for="file" id="file-label">Upload Health Report <input id="file" name="file" type="file"></label>
+                <input type="submit" name="submit" id="submit">
+        </form>
+        <h1 id="title2">Show your report</h1>
+        <form id="survey-form2" method="post" action="./second.php">
+                <label for="cemail" id="cemail-label">Email<input id="cemail" name="cemail" type="email"
+                                placeholder="Enter your email" required></label>
+                <input type="submit" name="csubmit" id="csubmit">
+        </form>
+</body>
+
+</html>
