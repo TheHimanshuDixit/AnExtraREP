@@ -8,9 +8,12 @@ https://thehimanshudixit.github.io/AnExtraREP/
 ```
 
 # Tech used 
--**Frontend:** Html, CSS, Js
--**Backend:** PHP
--**Database:** MySQL
+
+**Frontend:** Html, CSS, Js
+
+**Backend:** PHP
+
+**Database:** MySQL
 
 
 # Screenshot
